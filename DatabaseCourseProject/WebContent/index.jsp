@@ -4,7 +4,6 @@
 <%
 	String loginFlag = (String)session.getAttribute("loginFlag");
 	boolean isLogin = null == loginFlag ||loginFlag.length()==0 ?false:true;
-	//add test3
 %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
